@@ -15,13 +15,13 @@ public class Seller {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String s_userId;
 
-    @Column(length = 40, nullable = false)
+    @Column(length = 50, nullable = false)
     private String sellerId;
 
-    @Column(length = 40, nullable = false)
+    @Column(length = 50, nullable = false)
     private String productId;
 
-    @Column(length = 40, nullable = false)
+    @Column(length = 50, nullable = false)
     private String productRegistryDate;
 
     @Builder
